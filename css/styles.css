@@ -14,7 +14,7 @@
   /* Zoom family photo slightly to hide baked-in white margin in JPG; lower if art crops too tight */
   --contact-photo-zoom: 1.14;
   --font-primary: "Roboto", system-ui, sans-serif;
-  --font-secondary: "Roboto Slab", Georgia, serif;
+  --font-secondary: Georgia, "Times New Roman", serif;
   --container-max: 1140px;
   --header-breakpoint: 1025px;
 }
