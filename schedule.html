@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schedule – Seaside Jiu Jitsu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Roboto+Slab:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="page-schedule schedule-page">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+    <header id="site-header" class="site-header dynamic-header menu-dropdown-tablet">
+      <div class="header-inner">
+        <div class="site-branding show-title">
+          <h1 class="site-title hide">
+            <a href="index.html" title="Home">Seaside Jiu Jitsu</a>
+          </h1>
+        </div>
+
+        <nav class="site-navigation show" aria-label="Primary">
+          <div class="menu-main-menu-container">
+            <ul id="menu-main-menu" class="menu">
+              <li class="menu-item"><a href="index.html">Home</a></li>
+              <li class="menu-item current-menu-item">
+                <a href="schedule.html" aria-current="page">Schedule</a>
+              </li>
+              <li class="menu-item"><a href="instructors.html">Instructors</a></li>
+              <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="site-navigation-toggle-holder show">
+          <button
+            type="button"
+            class="site-navigation-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span class="eicon-menu-bar" aria-hidden="true"></span>
+            <span class="screen-reader-text">Menu</span>
+          </button>
+        </div>
+
+        <nav class="site-navigation-dropdown show" id="mobile-menu" aria-label="Mobile">
+          <div class="menu-main-menu-container">
+            <ul class="menu">
+              <li class="menu-item"><a href="index.html">Home</a></li>
+              <li class="menu-item current-menu-item">
+                <a href="schedule.html" aria-current="page">Schedule</a>
+              </li>
+              <li class="menu-item"><a href="instructors.html">Instructors</a></li>
+              <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="site-main">
+      <div class="page-content">
+        <div class="e-con-boxed">
+          <div class="e-con-inner">
+            <h2 class="elementor-heading-title elementor-size-xxl schedule-heading">SCHEDULE</h2>
+            <div class="schedule-image-wrap">
+              <img
+                src="images/seaside-sched.jpg"
+                width="768"
+                height="548"
+                alt=""
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="300" viewBox="0 0 232 300">
+  <rect width="100%" height="100%" fill="#fff5f0"/>
+  <rect width="100%" height="100%" fill="none" stroke="#0C1670" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="50%" y="45%" text-anchor="middle" font-family="Roboto,sans-serif" font-size="12" fill="#0C1670" font-weight="600">Family photo</text>
+  <text x="50%" y="52%" text-anchor="middle" font-family="Roboto,sans-serif" font-size="16" fill="#0C1670" font-weight="600">Fun for the whole family!</text>
+  <text x="50%" y="62%" text-anchor="middle" font-family="Roboto,sans-serif" font-size="11" fill="#7A7A7A">232 × 300</text>
+</svg>
